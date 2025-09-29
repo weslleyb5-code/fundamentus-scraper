@@ -3,7 +3,7 @@ name: Scrape Fundamentus
 on:
   workflow_dispatch: {}
   schedule:
-    - cron: '0 * * * *'  # roda no início de cada hora (cron em UTC)
+    - cron: '30 * * * *'  # roda aos :30 de cada hora (cron em UTC)
 
 jobs:
   scrape:
